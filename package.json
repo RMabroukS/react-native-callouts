@@ -1,0 +1,24 @@
+{
+  "name": "react-native-callouts",
+  "version": "1.0.2",
+  "description": "react-native-callouts",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RMabroukS/react-native-callouts.git"
+  },
+  "keywords": [
+    "react-native-callouts",
+    "callout",
+    "react-native"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RMabroukS/react-native-callouts/issues"
+  },
+  "homepage": "https://github.com/RMabroukS/react-native-callouts#readme"
+}
