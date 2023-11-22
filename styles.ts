@@ -1,21 +1,22 @@
 /* eslint-disable react-native/no-color-literals */
-import { StyleSheet } from 'react-native';
-
+import { StyleSheet ,Dimensions} from 'react-native';
+const {width}=Dimensions.get('screen')
 const calloutStyles = StyleSheet.create({
   callout: {
     position: 'absolute',
     backgroundColor: 'white',
     paddingHorizontal: 12,
     borderRadius: 10,
-    maxWidth: 300,
+    minWidth: 100,
+    maxWidth: width-40
   },
   triangle: {
     width: 0,
     height: 0,
     backgroundColor: 'transparent',
-    borderLeftWidth: 16,
-    borderRightWidth: 16,
-    borderTopWidth: 16,
+    borderLeftWidth: 14,
+    borderRightWidth: 14,
+    borderTopWidth: 14,
     borderLeftColor: 'transparent',
     borderRightColor: 'transparent',
     borderTopColor: 'white',
@@ -23,8 +24,12 @@ const calloutStyles = StyleSheet.create({
     right: 20,
     position: 'absolute',
   },
-  text: { padding: 10 },
-  btnStyle: { paddingHorizontal: 10 },
+  text: {
+     padding: 10 
+  },
+  btnStyle: {
+     paddingHorizontal: 0
+  },
 });
 
 export default calloutStyles;
